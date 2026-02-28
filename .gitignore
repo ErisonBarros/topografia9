@@ -1,0 +1,10 @@
+# Ignore Google Drive online files
+*.gdoc
+*.gslides
+*.gsheet
+*.gdraw
+*.gtable
+*.gform
+*.gmap
+*.gsite
+*.gscript
