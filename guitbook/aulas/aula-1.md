@@ -1,6 +1,7 @@
 ---
 coverY: 0
-layout: landing
+coverHeight: 63
+layout: editorial
 ---
 
 # 🚩 Aula 1
