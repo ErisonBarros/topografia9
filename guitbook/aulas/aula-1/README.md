@@ -7,7 +7,15 @@ layout: editorial
 
 # 🚩 Aula 1
 
-## ! \[Slide]\([https://docs.google.com/presentation/d/1cQ5wdm5zY2w5kajuYjA5UN2t1VjpUsJbgVxV8EKzmXY/edit?usp=drive\_link](https://docs.google.com/presentation/d/1cQ5wdm5zY2w5kajuYjA5UN2t1VjpUsJbgVxV8EKzmXY/edit?usp=drive_link))
+
+
+***
+
+### Slide 1
+
+{% embed url="https://docs.google.com/presentation/d/1cQ5wdm5zY2w5kajuYjA5UN2t1VjpUsJbgVxV8EKzmXY/edit?usp=drive_link" %}
+
+***
 
 ## 🚩 Revisão de Trigonometria
 
@@ -190,7 +198,7 @@ layout: editorial
 
 | Sistema | Subdivisões                              |
 | ------- | ---------------------------------------- |
-| Grau    | °, ' (minutos), " (segundos)             |
+| Grau    | ° (grau), ' (minutos), " (segundos)      |
 | Grado   | g, c (centigrade), cc (centi-centigrade) |
 | Radiano | Sistema decimal                          |
 

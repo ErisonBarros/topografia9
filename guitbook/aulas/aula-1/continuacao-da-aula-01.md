@@ -1,19 +1,10 @@
-# Page 1
-
-## Importância da Geomática
-
-**Aula 3**
-
-Autor: Paulo César Lima Segantine\
-Formato: 16:9 (1280x720px)
+# Continuação da Aula 01
 
 ***
 
-
-
 ## IMPORTÂNCIA DA GEOMÁTICA
 
-**Aula 3**
+**Aula 1 - Continuação**
 
 _Papel da Geomática na Engenharia: mensuração, representação do terreno e suporte a decisões técnicas._
 
