@@ -12,7 +12,7 @@ Código: CA-228
 
 Carga Horária: 30 horas de aulas teóricas – segunda-feira – das 13:00 – 15:00 h                                                                          &#x20;
 
-Professor: Erison Rosa de Oliveira Barros – erison.barros@ufpe.br
+Professor: Erison Rosa de Oliveira Barros – [erison.barros@ufpe.br](mailto:erison.barros@ufpe.br)
 
 ### 2. Ementa:
 

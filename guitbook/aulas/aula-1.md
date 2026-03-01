@@ -17,7 +17,7 @@ layout: editorial
 **Aula:** 1\
 **Departamento:** Engenharia Cartográfica - UFPE\
 **Professora:** Erison Rosa de O. Barros\
-**Contato:** erison.barros@ufpe.br
+**Contato:** [erison.barros@ufpe.br](mailto:erison.barros@ufpe.br)
 
 ***
 
