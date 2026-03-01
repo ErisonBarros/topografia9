@@ -1,10 +1,13 @@
 ---
+description: 2-mar.-26
 coverY: 0
 coverHeight: 63
 layout: editorial
 ---
 
 # 🚩 Aula 1
+
+## Slide -&#x20;
 
 ## 🚩 Revisão de Trigonometria
 
