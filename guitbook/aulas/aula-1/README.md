@@ -7,7 +7,7 @@ layout: editorial
 
 # 🚩 Aula 1
 
-## Slide -&#x20;
+## \[Slide]\([https://docs.google.com/presentation/d/1cQ5wdm5zY2w5kajuYjA5UN2t1VjpUsJbgVxV8EKzmXY/edit?usp=drive\_link](https://docs.google.com/presentation/d/1cQ5wdm5zY2w5kajuYjA5UN2t1VjpUsJbgVxV8EKzmXY/edit?usp=drive_link))
 
 ## 🚩 Revisão de Trigonometria
 
