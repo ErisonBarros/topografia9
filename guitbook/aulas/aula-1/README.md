@@ -4,23 +4,12 @@ coverY: 0
 coverHeight: 63
 layout: editorial
 ---
-
 # 🚩 Aula 1
-
-
-
 ***
-
 ### Slide 1
-
-{% embed url="https://docs.google.com/presentation/d/1cQ5wdm5zY2w5kajuYjA5UN2t1VjpUsJbgVxV8EKzmXY/edit?usp=drive_link" %}
-
 ***
-
 ## 🚩 Revisão de Trigonometria
-
 ***
-
 ## Topografia 9 - Revisão de Trigonometria
 
 **Disciplina:** Topografia 9\
