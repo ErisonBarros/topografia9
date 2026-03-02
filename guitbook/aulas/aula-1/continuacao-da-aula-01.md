@@ -49,14 +49,14 @@ Como parte de suas atribuições, o engenheiro depara-se frequentemente com situ
 * Posicionamento planimétrico e altimétrico
 * Métodos trigonométricos e poligonométricos
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11).png" alt="Determinação de coordenadas de pontos"><figcaption></figcaption></figure>
 
 **02. Implantação de pontos de controle**
 
 * Referência para levantamentos e projetos
 * Amarração à rede geodésica oficial
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt="Implantação de pontos de controle"><figcaption></figcaption></figure>
 
 **03. Levantamento de detalhes e perfis**
 
