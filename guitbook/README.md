@@ -1,6 +1,6 @@
 # 🏴 Introdução
 
-<mark style="color:yellow;">A disciplina Topografia 9 –</mark> Planimetria, oferecida pela Universidade Federal de Pernambuco para o curso de Engenharia Civil, tem como objetivo proporcionar aos alunos conhecimentos teóricos focados principalmente na planimetria e suas aplicações em Engenharia Civil. A disciplina, que possui uma carga horária de 30 horas de aulas teóricas, é ministrada pelo Professor [Erison Rosa de Oliveira Barros](https://github.com/ErisonBarros)
+<mark style="color:yellow;">A disciplina Topografia 9 –</mark> Disciplina oferecida pela Universidade Federal de Pernambuco para o curso de Engenharia Civil, tem como objetivo proporcionar aos alunos conhecimentos teóricos focados principalmente na planimetria e suas aplicações em Engenharia Civil. A disciplina, que possui uma carga horária de 30 horas de aulas teóricas, é ministrada pelo Professor [Erison Rosa de Oliveira Barros](https://github.com/ErisonBarros)
 
 O conteúdo programático abrange uma ampla gama de tópicos, incluindo sistemas de referência, teoria dos erros e noções de ajustamento, instrumentos de medição como teodolito e taqueômetro, e métodos de posicionamento planimétrico e tridimensional. O curso também cobre a teoria dos instrumentos, medição de distância, medição angular, transformação de sistemas de coordenadas e taqueometria.
 
