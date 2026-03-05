@@ -1,0 +1,3 @@
+## 2024-05-24 - Accessibility for GitBook Decorative Icons with Textual Fallbacks
+**Learning:** In GitBook environments where pure markdown and embedded HTML (`<i>` tags) are used for icons like FontAwesome, it's common practice for content creators to put a textual fallback inside the tags (e.g., `<i class="fa-envelope">:envelope:</i>`). This creates a significant accessibility issue where screen readers read out the technical/fallback text, degrading the reading experience for decorative visual elements.
+**Action:** Always verify that embedded decorative icon tags (like `<i>` or `<span>` used for icon fonts) contain `aria-hidden="true"` so that the textual fallback inside the element is explicitly ignored by assistive technologies.
