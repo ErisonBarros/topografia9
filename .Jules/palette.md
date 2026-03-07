@@ -1,0 +1,3 @@
+## 2024-05-18 - [Accessibility for Decorative Icons in GitBook]
+**Learning:** Raw HTML decorative FontAwesome `<i>` tags embedded directly in GitBook Markdown files lack implicit semantics and will be announced by screen readers if textual fallbacks (like `:map-marked-alt:`) are present within the tags, creating a confusing auditory experience.
+**Action:** Always verify decorative `<i>` tags in Markdown files and add `aria-hidden="true"` to prevent screen readers from announcing textual fallbacks or meaningless icon names, ensuring a cleaner auditory experience for users relying on assistive technologies.
