@@ -1,0 +1,3 @@
+## 2024-05-24 - GitBook Raw HTML `<i>` tags Accessibility Pattern
+**Learning:** Raw HTML decorative FontAwesome `<i>` tags embedded in GitBook Markdown can contain text fallbacks (e.g., `:map-marked-alt:`). If not hidden, screen readers will read these textual fallbacks, creating a confusing and poor experience for visually impaired users.
+**Action:** Always add `aria-hidden="true"` to any decorative `<i>` tag containing a text fallback in GitBook markdown.
