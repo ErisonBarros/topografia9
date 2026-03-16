@@ -1,0 +1,3 @@
+## 2024-05-16 - Decorative FontAwesome Icons in GitBook Markdown
+**Learning:** Raw HTML `<i>` tags used for FontAwesome icons in GitBook Markdown can cause screen readers to read the textual fallback (e.g., `:envelope:`) if not properly hidden, reducing the signal-to-noise ratio for visually impaired users.
+**Action:** Always add `aria-hidden="true"` to decorative `<i>` tags embedded within GitBook Markdown files.
