@@ -1,0 +1,3 @@
+## 2024-05-18 - FontAwesome Icons Screen Reader Accessibility
+**Learning:** Raw HTML decorative FontAwesome `<i>` tags embedded in Markdown files are read out as literal text or garbled characters by screen readers unless hidden.
+**Action:** Always add `aria-hidden="true"` to decorative `<i>` tags containing FontAwesome icons in GitBook Markdown to prevent screen readers from reading out textual fallbacks.
