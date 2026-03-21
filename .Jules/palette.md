@@ -1,0 +1,3 @@
+## 2024-05-24 - Accessibility for embedded FontAwesome in GitBook
+**Learning:** Raw HTML decorative FontAwesome `<i>` tags embedded in Markdown files in GitBook projects can lack `aria-hidden="true"`. Because they often rely on textual fallbacks inside the tag (e.g., `:map-marked-alt:`), screen readers will read this text, creating a confusing experience for visually impaired users.
+**Action:** Always verify that embedded raw HTML `<i>` tags used for icons include `aria-hidden="true"` so that screen readers correctly ignore the fallback content.
