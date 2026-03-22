@@ -1,0 +1,3 @@
+## 2024-05-24 - Avoid Textual Fallbacks for Decorative Icons in GitBook
+**Learning:** GitBook's markdown processor does not automatically add `aria-hidden="true"` to raw HTML `<i class="fa-*">` decorative FontAwesome tags. If these tags contain textual fallbacks (e.g., `:envelope:`), screen readers will confusingly read this textual fallback out loud to the user because the icon is perceived as regular text content instead of a visual decoration.
+**Action:** Always include `aria-hidden="true"` on raw HTML FontAwesome tags when used for purely decorative purposes, specifically when they contain textual fallbacks, to ensure they are ignored by assistive technologies and do not clutter the audio presentation.
