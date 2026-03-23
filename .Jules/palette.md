@@ -1,0 +1,3 @@
+## 2024-05-24 - GitBook FontAwesome Icon Fallbacks
+**Learning:** Raw HTML decorative FontAwesome `<i>` tags embedded in Markdown often include textual fallbacks (like `:map-marked-alt:`). Screen readers will read these raw fallbacks to visually impaired users, confusing the context.
+**Action:** Always add `aria-hidden="true"` to raw HTML decorative FontAwesome `<i>` tags in Markdown files (e.g., `<i class="fa-envelope" aria-hidden="true">:envelope:</i>`) to prevent screen readers from reading textual fallbacks out loud.
