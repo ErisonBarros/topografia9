@@ -1,0 +1,3 @@
+## 2024-05-24 - Hide Decorative FontAwesome Icons from Screen Readers
+**Learning:** Raw HTML `<i>` tags used for decorative FontAwesome icons in Markdown files can be read by screen readers, leading to confusing auditory experiences. The default FontAwesome fallback text or class names might be spoken, which adds noise without providing context.
+**Action:** Always add `aria-hidden="true"` to purely decorative `<i>` tags embedded in Markdown files (e.g., `<i class="fa-map-marked-alt" aria-hidden="true"></i>`) to ensure they are ignored by assistive technologies, keeping the reading flow clean and meaningful.
