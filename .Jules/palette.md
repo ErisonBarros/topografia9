@@ -1,0 +1,3 @@
+## 2024-05-24 - Accessibility for embedded FontAwesome tags in GitBook Markdown
+**Learning:** GitBook Markdown sometimes embeds raw HTML `<i class="fa-*">` tags for FontAwesome icons along with textual fallbacks inside them (e.g., `<i class="fa-envelope">:envelope:</i>`). Screen readers will incorrectly read this fallback text out of context if the icon is purely decorative.
+**Action:** When working on GitBook repositories, add `aria-hidden="true"` to any decorative `<i>` tags used for FontAwesome icons to hide them (and their textual fallbacks) from assistive technologies.
