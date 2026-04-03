@@ -1,0 +1,3 @@
+## 2025-01-20 - GitBook Markdown FontAwesome Accessibility
+**Learning:** Raw HTML decorative FontAwesome `<i>` tags embedded in GitBook Markdown can be read out as meaningless textual fallbacks by screen readers if they lack accessibility attributes.
+**Action:** Always add `aria-hidden="true"` to decorative FontAwesome `<i>` tags (e.g., `<i class="fa-icon" aria-hidden="true">`) in GitBook projects to ensure they are ignored by screen readers, improving the accessibility experience.
