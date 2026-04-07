@@ -1,0 +1,3 @@
+## 2023-10-24 - Screen reader issues with FontAwesome fallbacks in Markdown
+**Learning:** Raw HTML decorative FontAwesome `<i>` tags embedded in Markdown often include textual fallbacks (e.g., `:map-marked-alt:`) that screen readers will read aloud if not explicitly hidden, creating a confusing and verbose experience for users.
+**Action:** Always add `aria-hidden="true"` to decorative `<i>` tags used for icons when embedded in Markdown, especially when they contain fallback text.
