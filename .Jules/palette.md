@@ -1,0 +1,3 @@
+## 2026-04-08 - GitBook FontAwesome Textual Fallbacks
+**Learning:** GitBook sometimes uses raw HTML `<i class="fa-*">...</i>` tags with textual fallbacks inside them (e.g., `:envelope:`) instead of standard Markdown images or SVGs. Screen readers will read these textual fallbacks if the `<i>` tag is not hidden from accessibility trees.
+**Action:** Always add `aria-hidden="true"` to these decorative `<i>` tags when found in Markdown files to ensure screen readers skip over the textual representation of the icon.
