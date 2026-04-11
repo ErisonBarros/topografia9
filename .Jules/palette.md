@@ -1,0 +1,3 @@
+## 2024-04-11 - Add aria-hidden to GitBook HTML fallbacks
+**Learning:** In GitBook Markdown environments, raw HTML tags used for decorative icons (like `<i class="fa-icon">:icon-text:</i>`) are explicitly announced by screen readers if they contain text fallbacks (e.g. `:icon-text:`).
+**Action:** Always append `aria-hidden="true"` to embedded decorative HTML `<i>` tags in Markdown files to prevent redundant noise for screen reader users.
