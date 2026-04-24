@@ -1,0 +1,3 @@
+## 2024-03-24 - Accessibility Improvement for FontAwesome Icons
+**Learning:** Screen readers might attempt to interpret or read textual fallbacks for decorative FontAwesome icons in Markdown files.
+**Action:** Adding `aria-hidden="true"` to raw HTML `<i>` tags containing FontAwesome classes in Markdown files ensures that screen readers appropriately ignore these elements, preventing confusion and improving accessibility.
