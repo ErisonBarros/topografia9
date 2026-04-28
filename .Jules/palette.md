@@ -1,0 +1,3 @@
+## 2024-03-20 - GitBook FontAwesome Markdown Rendering
+**Learning:** In this GitBook project, decorative FontAwesome icons are embedded in Markdown using raw `<i>` tags with text fallbacks inside them (e.g., `<i class="fa-map-marked-alt">:map-marked-alt:</i>`). Screen readers will read these raw text fallbacks aloud, creating a confusing experience for non-sighted users.
+**Action:** Always ensure that any raw HTML `<i>` tags used for decorative FontAwesome icons in GitBook Markdown include the `aria-hidden="true"` attribute to hide the text fallbacks from assistive technologies.
