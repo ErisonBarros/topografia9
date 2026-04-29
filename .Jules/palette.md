@@ -1,0 +1,3 @@
+## 2024-05-18 - Accessibility for raw HTML icons in GitBook Markdown
+**Learning:** Raw HTML icons (like FontAwesome `<i>` tags) embedded directly into GitBook Markdown often use textual fallbacks (e.g., `:map-marked-alt:`). Screen readers will read these raw fallbacks to the user, creating a confusing experience, since they are decorative.
+**Action:** Always add `aria-hidden="true"` to decorative raw HTML icons embedded in Markdown to prevent screen readers from reading their textual fallbacks out loud.
