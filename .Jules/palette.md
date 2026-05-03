@@ -1,0 +1,3 @@
+## 2026-05-03 - GitBook Raw HTML Icons Accessibility
+**Learning:** GitBook markdown files often contain raw HTML `<i>` tags for FontAwesome icons that have textual fallbacks embedded within them (e.g., `<i class="fa-envelope">:envelope:</i>`). Screen readers will announce these textual fallbacks if they are not explicitly hidden.
+**Action:** When adding or encountering these decorative raw HTML icons in GitBook markdown, ensure they have the `aria-hidden="true"` attribute added to prevent screen readers from reading out the redundant textual fallbacks.
