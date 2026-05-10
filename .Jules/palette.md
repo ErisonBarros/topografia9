@@ -1,0 +1,3 @@
+## 2024-05-10 - Adding ARIA attributes to GitBook HTML Elements
+**Learning:** GitBook allows embedding HTML like `<i class="fa-icon">` for FontAwesome icons inside Markdown files, but these can be disruptive for screen readers if they have generic fallback text (like `:icon-name:`) without proper ARIA hiding attributes.
+**Action:** When adding or encountering decorative `<i>` tags for FontAwesome icons in Markdown files for GitBook, ensure they include `aria-hidden="true"` so that screen readers skip the textual fallbacks.
