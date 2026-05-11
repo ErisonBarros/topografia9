@@ -1,0 +1,3 @@
+## 2025-01-24 - Accessibility improvements to GitBook Icons
+**Learning:** GitBook often converts textual fallbacks (like `:map-marked-alt:`) into raw HTML FontAwesome `<i>` tags inside Markdown files without accessibility attributes. If a screen reader reads the page, it will read out the fallback text to the user since it is embedded between the `<i>...</i>` tags.
+**Action:** For all decorative FontAwesome `<i>` tags embedded in GitBook Markdown, make sure to add the `aria-hidden="true"` attribute (e.g. `<i class="fa-envelope" aria-hidden="true">:envelope:</i>`) to prevent screen readers from reading textual fallbacks.
