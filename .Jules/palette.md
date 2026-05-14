@@ -1,0 +1,3 @@
+## 2024-05-14 - Add aria-hidden to decorative FontAwesome icons in GitBook Markdown
+**Learning:** Decorative FontAwesome icons (`<i>` tags) embedded in Markdown for GitBook can cause screen readers to read their textual fallbacks (e.g. `:map-marked-alt:`). This provides a poor user experience.
+**Action:** Always add `aria-hidden="true"` to these decorative `<i>` tags in Markdown files to prevent screen readers from announcing them unnecessarily.
