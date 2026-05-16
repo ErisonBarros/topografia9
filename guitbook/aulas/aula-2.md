@@ -4,7 +4,7 @@ Capa Institucional - Topografia 9UFPE
 
 Universidade Federal de Pernambuco
 
-<i class="fa-map-marked-alt">:map-marked-alt:</i>
+<i class="fa-map-marked-alt" aria-hidden="true">:map-marked-alt:</i>
 
 Departamento de\
 Engenharia Cartográfica
@@ -17,16 +17,16 @@ Engenharia Civil • Aula 1
 
 ### Revisão de Trigonometria
 
-<i class="fa-chalkboard-teacher">:chalkboard-teacher:</i>
+<i class="fa-chalkboard-teacher" aria-hidden="true">:chalkboard-teacher:</i>
 
 Docente
 
 Prof. Erison Rosa de O. Barros
 
-<i class="fa-envelope">:envelope:</i>
+<i class="fa-envelope" aria-hidden="true">:envelope:</i>
 
 Contato
 
 erobeng@hotmail.com
 
-<i class="fa-drafting-compass">:drafting-compass:</i>
+<i class="fa-drafting-compass" aria-hidden="true">:drafting-compass:</i>
