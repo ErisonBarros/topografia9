@@ -1,0 +1,3 @@
+## 2024-05-18 - GitBook FontAwesome Icon Accessibility
+**Learning:** GitBook environments occasionally embed raw HTML tags like `<i class="fa-...">:icon-name:</i>` in Markdown. Without the `aria-hidden="true"` attribute, screen readers will read aloud the textual fallback inside the tag, causing annoying repetition or confusing announcements.
+**Action:** Always add `aria-hidden="true"` to these decorative `<i>` tags when found in GitBook Markdown to improve the screen reader experience.
