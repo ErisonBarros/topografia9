@@ -1,0 +1,3 @@
+## 2025-01-20 - Decorative HTML Icons in Markdown require aria-hidden
+**Learning:** When using raw HTML to embed decorative FontAwesome icons (e.g. `<i class="fa-envelope">`) within Markdown files (like in GitBook), these elements do not have any accessible text. Screen readers might announce their visual fallback content or internal class names, leading to a confusing user experience.
+**Action:** Always add `aria-hidden="true"` to any raw HTML decorative `<i>` tags embedded in Markdown files to prevent screen readers from reading them.
