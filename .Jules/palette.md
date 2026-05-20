@@ -1,0 +1,3 @@
+## 2024-05-19 - Adding aria-hidden to decorative GitBook raw HTML icons
+**Learning:** GitBook markdown files in this project use raw HTML `<i>` tags for FontAwesome icons along with text fallbacks (e.g., `:map-marked-alt:`). Since these icons are purely decorative and sit adjacent to meaningful text or text fallbacks, they must include `aria-hidden="true"` to prevent screen readers from reading the textual fallbacks out of context.
+**Action:** When working on GitBook markdown content in this repository, always check for raw HTML decorative FontAwesome `<i>` tags and ensure they include `aria-hidden="true"`.
