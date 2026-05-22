@@ -1,0 +1,3 @@
+## 2025-01-20 - GitBook FontAwesome Icon Accessibility
+**Learning:** GitBook Markdown sometimes embeds raw HTML `<i class="fa-...">:icon-name:</i>` tags for decorative FontAwesome icons. Screen readers will read the textual fallback inside the tag (e.g., ":map-marked-alt:") which creates noise since these are purely decorative.
+**Action:** When adding or encountering raw HTML `<i class="...">` tags in GitBook Markdown, always add the `aria-hidden="true"` attribute to prevent screen readers from announcing the textual fallbacks.
