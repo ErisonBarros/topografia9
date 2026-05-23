@@ -1,0 +1,3 @@
+## 2026-05-23 - Screen Reader Fallbacks in GitBook Icons
+**Learning:** GitBook sometimes renders FontAwesome icons with textual fallbacks inside the `<i>` tag (e.g., `<i class="fa-envelope">:envelope:</i>`). Without `aria-hidden="true"`, screen readers will read this fallback text aloud, which can disrupt the flow of the document or be redundant if the icon is purely decorative.
+**Action:** Always verify if embedded `<i>` tags in Markdown files contain textual fallbacks and add `aria-hidden="true"` to prevent screen readers from reading them.
