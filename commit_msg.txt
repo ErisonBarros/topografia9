@@ -1,0 +1,13 @@
+🎨 Palette: Add aria-hidden to decorative icons in Markdown
+
+**💡 What:**
+Added the `aria-hidden="true"` attribute to raw HTML FontAwesome `<i>` tags embedded within `guitbook/aulas/aula-2.md`.
+
+**🎯 Why:**
+These icons contain textual fallbacks (e.g., `:map-marked-alt:`). If not explicitly hidden, screen readers may read these fallbacks aloud, disrupting the reading flow and confusing users relying on assistive technology.
+
+**📸 Before/After:**
+*N/A - Visually identical, purely an accessibility improvement.*
+
+**♿ Accessibility:**
+Improves screen reader compatibility by explicitly hiding decorative elements and their textual fallbacks from the accessibility tree, thereby avoiding redundant and potentially confusing audio output.
