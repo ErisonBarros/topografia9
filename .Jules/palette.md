@@ -1,0 +1,3 @@
+## 2025-01-20 - [ARIA Hidden on Markdown FontAwesome]
+**Learning:** Found a pattern of raw HTML FontAwesome icons with textual fallbacks (`<i class="fa-*">:*text*:</i>`) embedded directly in GitBook Markdown files. Screen readers attempt to announce these raw textual fallbacks which clutter the reading experience and break flow.
+**Action:** Always add `aria-hidden="true"` to such decorative HTML icons inside markdown documents to keep screen reader flow clean.
