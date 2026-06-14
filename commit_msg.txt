@@ -1,0 +1,14 @@
+🎨 Palette: Add aria-hidden to decorative icons in Aula 2
+
+💡 What:
+Added the `aria-hidden="true"` attribute to the four purely decorative FontAwesome `<i>` tags in `guitbook/aulas/aula-2.md`.
+
+🎯 Why:
+To prevent screen readers from attempting to read the textual fallbacks of these decorative icons. Since the icons are accompanied by descriptive text (e.g., "Docente", "Contato", "Universidade Federal de Pernambuco"), their textual equivalent provides no extra value and only clutters the auditory experience for users relying on assistive technology.
+
+📸 Before/After:
+Before: `<i class="fa-envelope">:envelope:</i>`
+After: `<i class="fa-envelope" aria-hidden="true">:envelope:</i>`
+
+♿ Accessibility:
+Ensures a smoother experience for screen reader users by removing redundant/unnecessary vocalizations of purely decorative inline icons.
