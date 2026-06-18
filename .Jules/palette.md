@@ -1,0 +1,3 @@
+## 2024-05-18 - Missing ARIA hidden attributes on Gitbook FontAwesome decorative tags
+**Learning:** GitBook Markdown sometimes embeds raw HTML tags like `<i>` to render FontAwesome icons. When these tags contain textual fallbacks for the icon rendering engine (like `:envelope:` inside `<i class="fa-envelope">:envelope:</i>`), screen readers will read this fallback text aloud, disrupting the reading flow and adding unhelpful noise, as these icons are often purely decorative.
+**Action:** When working with raw HTML icon embeds in Markdown documents, especially GitBook, proactively ensure they include `aria-hidden="true"` so that screen readers ignore the textual fallbacks and decorative elements.
