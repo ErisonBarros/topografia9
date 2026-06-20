@@ -1,0 +1,3 @@
+## 2024-03-01 - Adding aria-hidden to decorative FontAwesome tags in GitBook Markdown
+**Learning:** Raw HTML <i> tags used for icons (e.g. FontAwesome) inside Markdown can still be processed by screen readers if they lack structural hiding, often resulting in them trying to interpret their class names or textual fallbacks if any were included as inner content.
+**Action:** When working in GitBook projects that embed raw HTML FontAwesome icons in their Markdown files, always add the aria-hidden="true" attribute to these decorative <i> tags to improve screen reader accessibility.

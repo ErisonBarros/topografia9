@@ -1,0 +1,15 @@
+🎨 Palette: Add aria-hidden to decorative FontAwesome tags in GitBook Markdown
+
+💡 What:
+Added the `aria-hidden="true"` attribute to decorative FontAwesome `<i>` tags embedded in `guitbook/aulas/aula-2.md`.
+Also added a critical UX learning about this to `.Jules/palette.md`.
+
+🎯 Why:
+Raw HTML `<i>` tags used for icons inside Markdown can be processed by screen readers if they lack structural hiding, often resulting in them trying to interpret their class names or textual fallbacks (like `:map-marked-alt:`). This makes the content confusing for users relying on assistive technology.
+
+📸 Before/After:
+Before: `<i class="fa-map-marked-alt">:map-marked-alt:</i>`
+After:  `<i class="fa-map-marked-alt" aria-hidden="true">:map-marked-alt:</i>`
+
+♿ Accessibility:
+Prevents screen readers from announcing meaningless decorative icon text fallbacks, improving the reading experience for visually impaired users.
