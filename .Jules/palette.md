@@ -1,0 +1,3 @@
+## 2024-03-24 - GitBook FontAwesome Decorative Icons Text Fallback Accessibility Issue
+**Learning:** GitBook automatically creates text fallbacks (e.g., `:map-marked-alt:`) when embedding FontAwesome decorative `<i class="fa-map-marked-alt">` icons. Without `aria-hidden="true"`, screen readers end up reading this awkward textual fallback representation.
+**Action:** When working with FontAwesome `<i>` tags embedded within GitBook markdown files, always verify and ensure the `<i ...>` tag has an `aria-hidden="true"` attribute attached, as decorative icons shouldn't interfere with assistive technologies.
