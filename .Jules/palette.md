@@ -1,0 +1,3 @@
+## 2026-06-29 - Hiding Decorative Raw HTML FontAwesome Icons from Screen Readers
+**Learning:** GitBook markdown files often contain raw HTML tags for FontAwesome icons with textual fallbacks inside the tag (e.g., `<i class="fa-map-marked-alt">:map-marked-alt:</i>`). Because these are purely decorative but contain textual fallbacks, screen readers will unnecessarily read the textual fallback content, creating a noisy experience.
+**Action:** When working on GitBook markdown accessibility, ensure all decorative `<i>` tags embedding icons have `aria-hidden="true"` applied to suppress screen readers from reading the internal fallback text.

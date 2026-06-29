@@ -1,0 +1,6 @@
+🎨 Palette: Hide decorative FontAwesome icons from screen readers
+
+💡 What: Added aria-hidden="true" to raw HTML FontAwesome <i> tags embedded in GitBook markdown.
+🎯 Why: Prevents screen readers from unnecessarily reading textual fallbacks inside purely decorative icons (e.g., :map-marked-alt:).
+📸 Before/After: Visual presentation unchanged, purely an accessibility structural fix.
+♿ Accessibility: Improved screen reader experience by reducing noise from decorative elements.
