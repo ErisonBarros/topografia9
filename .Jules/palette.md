@@ -1,0 +1,3 @@
+## 2025-01-20 - GitBook Markdown Accessibility
+**Learning:** Raw HTML decorative FontAwesome `<i>` tags embedded in Markdown files in this GitBook project may lack `aria-hidden` attributes, causing screen readers to read their textual fallbacks (e.g., ":map-marked-alt:").
+**Action:** Always add `aria-hidden="true"` to these decorative `<i>` tags in Markdown files to improve screen reader accessibility.

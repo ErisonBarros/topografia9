@@ -1,0 +1,13 @@
+🎨 Palette: Add aria-hidden to decorative icons in aula-2.md
+
+💡 What:
+Added `aria-hidden="true"` to raw HTML decorative FontAwesome `<i>` tags embedded in `guitbook/aulas/aula-2.md` and created Palette's journal in `.Jules/palette.md`.
+
+🎯 Why:
+To prevent screen readers from uselessly reading out the textual fallbacks (e.g., ":map-marked-alt:") of purely decorative icons, providing a smoother experience for users with visual impairments.
+
+📸 Before/After:
+N/A (Invisible accessibility change)
+
+♿ Accessibility:
+Ensures decorative icons are properly hidden from assistive technologies.
