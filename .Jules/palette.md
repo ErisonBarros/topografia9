@@ -1,0 +1,3 @@
+## 2024-05-18 - Accessibility issue pattern specific to this app's components (GitBook HTML tags)
+**Learning:** Raw HTML decorative FontAwesome `<i>` tags embedded in the Markdown do not have `aria-hidden="true"`. This causes screen readers to read textual fallbacks which negatively affects the screen reader experience.
+**Action:** When adding or encountering these raw HTML `<i>` tags within GitBook markdown files, always ensure `aria-hidden="true"` is added.
