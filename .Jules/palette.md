@@ -1,0 +1,3 @@
+## 2024-07-16 - GitBook Markdown Decorative Icons Accessibility
+**Learning:** GitBook markdown allows embedding raw HTML, including FontAwesome `<i>` tags used for decorative icons. These icons frequently include a textual fallback (e.g., `:map-marked-alt:`) directly inside the tag. Without the `aria-hidden="true"` attribute, screen readers will announce this fallback text, confusing users by mixing layout code and textual content.
+**Action:** When working on GitBook markdown containing raw HTML `<i class="...">` icons, manually add `aria-hidden="true"` to ensure these decorative elements are ignored by assistive technologies, avoiding the announcement of textual fallback content.
