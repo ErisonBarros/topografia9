@@ -1,0 +1,6 @@
+🎨 Palette: Add aria-hidden to decorative icons
+
+💡 What: Added aria-hidden="true" to four FontAwesome <i> tags in aula-2.md.
+🎯 Why: Prevents screen readers from announcing decorative icons and their textual fallbacks (like ":map-marked-alt:"), reducing noise for users relying on assistive technology.
+📸 Before/After: N/A - non-visual change.
+♿ Accessibility: Improved screen reader experience by hiding decorative elements.
