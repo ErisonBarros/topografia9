@@ -1,0 +1,3 @@
+## 2025-01-20 - Adding ARIA labels to decorative FontAwesome icons in GitBook Markdown
+**Learning:** Raw HTML FontAwesome `<i>` tags embedded within GitBook markdown files act as decorative icons with textual fallbacks but lack essential `aria-hidden="true"` accessibility attributes. This causes screen readers to read the textual fallbacks out of context, polluting the auditory interface.
+**Action:** Always ensure that when raw HTML FontAwesome icons (`<i class="...">`) are embedded into GitBook markdown, they are equipped with `aria-hidden="true"` to prevent screen readers from reading textual fallbacks that are otherwise intended strictly as visual icons.
