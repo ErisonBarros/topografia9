@@ -1,0 +1,3 @@
+## 2024-07-20 - GitBook Decorative Icons Accessibility
+**Learning:** Raw HTML decorative FontAwesome `<i>` tags embedded in GitBook Markdown can be read by screen readers if they lack `aria-hidden="true"`, causing screen readers to announce the textual fallback incorrectly or add noise.
+**Action:** Ensure all raw HTML `<i>` tags used for decorative purposes within Markdown files include the `aria-hidden="true"` attribute.
