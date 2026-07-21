@@ -1,0 +1,3 @@
+## 2024-05-24 - Accessibility for Embedded FontAwesome Icons in Markdown
+**Learning:** Raw HTML FontAwesome `<i>` tags embedded in GitBook Markdown, when paired with textual/emoji fallbacks like `:envelope:`, can cause screen readers to announce the fallback text or Unicode characters inappropriately, confusing visually impaired users who are navigating the content.
+**Action:** Always include the `aria-hidden="true"` attribute on decorative FontAwesome `<i>` tags in Markdown files (e.g., `<i class="fa-envelope" aria-hidden="true">`) to ensure screen readers skip the icon and rely solely on the surrounding accessible text or the textual fallback intended for non-visual presentation.
