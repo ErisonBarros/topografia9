@@ -1,0 +1,6 @@
+🎨 Palette: Add aria-hidden to decorative FontAwesome icons
+
+💡 What: Added `aria-hidden="true"` to raw HTML decorative FontAwesome `<i>` tags embedded in `aula-2.md` and added a journal entry in `.Jules/palette.md`.
+🎯 Why: Without this attribute, screen readers read out the textual fallbacks of these icons (like `:map-marked-alt:`), which degrades the listening experience for visually impaired users.
+📸 Before/After: N/A (non-visual change)
+♿ Accessibility: Improved screen reader experience by hiding decorative icons that provide no additional semantic value.

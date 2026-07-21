@@ -1,0 +1,3 @@
+## 2024-05-18 - Accessibility issue with markdown embedded FontAwesome icons
+**Learning:** Raw HTML decorative FontAwesome `<i>` tags embedded in Markdown files lack `aria-hidden="true"`, causing screen readers to read their fallback text which degrades the accessibility experience.
+**Action:** Ensure all embedded decorative `<i>` icon tags include the `aria-hidden="true"` attribute in GitBook Markdown files.
