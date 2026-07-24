@@ -1,6 +1,6 @@
 # 📚 topografia9 — Materiais de Topografia (DECART/UFPE)
 
-> **Repositório de apoio às aulas** da disciplina **Cartografia e Topografia** do Departamento de Engenharia Cartográfica (DECART) da Universidade Federal de Pernambuco (UFPE).
+> **Repositório de apoio às aulas** da disciplina **Topografia 9** do Departamento de Engenharia Cartográfica (DECART) da Universidade Federal de Pernambuco (UFPE).
 > Mantido pelo Prof. Dr. Erison Rosa de Oliveira Barros.
 
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0003--4879--6880-a6ce39?logo=orcid&logoColor=white)](https://orcid.org/0000-0003-4879-6880)
