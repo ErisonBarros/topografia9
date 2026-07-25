@@ -1,0 +1,3 @@
+## 2024-03-24 - Screen Reader Fallbacks for Decorative Icons in GitBook
+**Learning:** GitBook markdown often embeds raw HTML for icons (like `<i class="fa-icon">`). These elements, meant to be purely decorative, are announced by screen readers if they lack appropriate ARIA attributes.
+**Action:** When embedding decorative icons via raw HTML in markdown, always include `aria-hidden="true"` on the `<i>` tags to hide them from assistive technologies.
