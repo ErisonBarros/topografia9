@@ -1,0 +1,6 @@
+🎨 Palette: Add aria-hidden to decorative icons
+
+💡 What: Added aria-hidden="true" to decorative FontAwesome `<i>` tags in guitbook/aulas/aula-2.md.
+🎯 Why: Prevents screen readers from announcing unhelpful fallback text (like ":map-marked-alt:") for icons that are purely decorative.
+📸 Before/After: N/A (non-visual change)
+♿ Accessibility: Improved screen reader experience by hiding decorative elements that don't add semantic value.
