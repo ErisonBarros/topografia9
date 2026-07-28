@@ -1,0 +1,3 @@
+## 2024-05-24 - Hide GitBook FontAwesome icons from screen readers
+**Learning:** Raw HTML FontAwesome `<i>` tags embedded in Markdown files (often used for decorative GitBook icons like `:map-marked-alt:`) can be read aloud by screen readers as textual fallbacks if they lack `aria-hidden="true"`, causing unnecessary noise and a degraded navigation experience.
+**Action:** Always add `aria-hidden="true"` to raw HTML `<i>` tags containing decorative FontAwesome icons in GitBook projects to ensure they are ignored by assistive technologies.
