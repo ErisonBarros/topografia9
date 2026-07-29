@@ -1,0 +1,3 @@
+## 2024-06-25 - Hiding Decorative Icon Elements from Screen Readers
+**Learning:** Raw HTML decorative icons (like FontAwesome `<i>` tags) embedded directly in Markdown files can cause screen readers to read fallback text (e.g., `:map-marked-alt:`) out of context, confusing visually impaired users.
+**Action:** Always add `aria-hidden="true"` to decorative `<i>` tags in Markdown files to ensure screen readers ignore them and provide a smoother, more accessible reading experience.
