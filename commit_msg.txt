@@ -1,0 +1,6 @@
+🎨 Palette: Add aria-hidden to decorative icons
+
+What: Added `aria-hidden="true"` to all decorative FontAwesome `<i>` tags in `guitbook/aulas/aula-2.md`.
+Why: To prevent screen readers from reading out textual fallbacks (like `:envelope:`) for decorative icons, reducing noise for users relying on assistive technologies.
+Before/After: Not applicable (no visual change).
+Accessibility: Improved screen reader experience by hiding decorative elements that provide no semantic meaning.
