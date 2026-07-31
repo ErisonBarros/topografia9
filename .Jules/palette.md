@@ -1,0 +1,3 @@
+## 2023-10-27 - Hiding decorative raw HTML in Markdown from Screen Readers
+**Learning:** Raw HTML like `<i class="fa-icon">:icon-name:</i>` embedded in Markdown files (like those used in GitBook) will be read aloud by screen readers, which often read the fallback text content (like ":icon-name:"). This causes noisy and unhelpful screen reader experiences when the icons are purely decorative.
+**Action:** When working on Markdown files that contain raw HTML for decorative elements (like FontAwesome icons), ensure they include `aria-hidden="true"` to prevent screen readers from reading textual fallbacks.
