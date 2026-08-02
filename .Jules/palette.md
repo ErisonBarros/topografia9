@@ -1,0 +1,3 @@
+## 2024-05-17 - Accessible FontAwesome Icons in GitBook Markdown
+**Learning:** Raw HTML decorative FontAwesome `<i>` tags embedded directly in Markdown files cause screen readers to read the textual fallbacks (or lack thereof), degrading the accessibility of the documentation.
+**Action:** Always ensure all raw HTML decorative FontAwesome `<i>` tags in Markdown files include the `aria-hidden="true"` attribute to prevent them from being read aloud.
