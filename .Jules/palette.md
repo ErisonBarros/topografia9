@@ -1,0 +1,3 @@
+## 2024-05-17 - Decorative Icons in Markdown
+**Learning:** FontAwesome icons embedded as raw HTML `<i>` tags within Markdown files often contain textual fallbacks (like `:map-marked-alt:`). If `aria-hidden="true"` is not added to the `<i>` tag, screen readers will read out these textual fallbacks, creating a poor and confusing experience for visually impaired users, as the text is meant to be a visual identifier for the icon rendering rather than content.
+**Action:** Always ensure raw HTML decorative icons (e.g., `<i class="fa-*">...</i>`) in Markdown files have the `aria-hidden="true"` attribute explicitly set.
