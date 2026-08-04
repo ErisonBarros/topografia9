@@ -1,0 +1,3 @@
+## 2024-05-18 - Adding `aria-hidden` to decorative icons in Markdown
+**Learning:** Raw HTML decorative icons (like FontAwesome `<i>` tags) embedded in Markdown documents are not automatically ignored by screen readers, which can lead to textual fallbacks or unintelligible class names being read out loud.
+**Action:** Always include the `aria-hidden="true"` attribute on purely decorative `<i>` elements or icon tags injected via HTML into Markdown files to improve accessibility for screen reader users.
