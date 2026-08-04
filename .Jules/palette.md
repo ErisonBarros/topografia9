@@ -1,0 +1,3 @@
+## 2024-05-24 - Accessibility for Decorative Icons in Markdown
+**Learning:** Raw HTML icons (like `<i class="fa-xyz">`) embedded within Markdown without `aria-hidden="true"` cause screen readers to read their textual fallbacks or internal content, which can be noisy or confusing if the icon is purely decorative.
+**Action:** Always ensure that purely decorative FontAwesome `<i>` tags embedded in Markdown files contain `aria-hidden="true"` to improve the screen reader experience.
