@@ -1,0 +1,3 @@
+## 2024-05-24 - Accessibility for embedded FontAwesome icons in Markdown
+**Learning:** Raw HTML decorative FontAwesome `<i>` tags embedded in Markdown can present an accessibility issue if they include textual fallbacks inside the tag without explicitly being hidden from screen readers. Screen readers may inadvertently read these fallbacks out loud, causing confusion.
+**Action:** Always add `aria-hidden="true"` to such decorative `<i>` tags to ensure screen readers ignore them.
