@@ -25,8 +25,12 @@ Write-Host "Repo:   $Repo"
 & $uv sync --script $script
 if ($LASTEXITCODE -ne 0) { throw "Falha ao instalar dependências (uv sync --script)." }
 
-# 3) Grava/mescla o claude_desktop_config.json (versão padrão e versão MSIX)
+# 3) Grava/mescla o claude_desktop_config.json. A versão MSIX atual usa
+#    %LOCALAPPDATA%\Claude-Data\claude_<id>\ como pasta de dados; as demais
+#    entradas cobrem instalações clássicas/antigas.
 $destinos = @(Join-Path $env:APPDATA "Claude\claude_desktop_config.json")
+Get-ChildItem (Join-Path $env:LOCALAPPDATA "Claude-Data") -Directory -Filter "claude_*" -ErrorAction SilentlyContinue |
+    ForEach-Object { $destinos += Join-Path $_.FullName "claude_desktop_config.json" }
 Get-ChildItem (Join-Path $env:LOCALAPPDATA "Packages") -Directory -Filter "Claude_*" -ErrorAction SilentlyContinue |
     ForEach-Object { $destinos += Join-Path $_.FullName "LocalCache\Roaming\Claude\claude_desktop_config.json" }
 
@@ -40,8 +44,10 @@ foreach ($cfg in $destinos) {
     $dir = Split-Path $cfg
     if (-not (Test-Path $dir)) { New-Item -ItemType Directory -Path $dir -Force | Out-Null }
     if (Test-Path $cfg) {
+        $doc = Get-Content $cfg -Raw -Encoding UTF8
+        if ($doc -match '"openbot"') { Write-Host "Já configurado: $cfg"; continue }
         Copy-Item $cfg "$cfg.bak" -Force
-        $json = Get-Content $cfg -Raw -Encoding UTF8 | ConvertFrom-Json
+        $json = $doc | ConvertFrom-Json
     } else {
         $json = [pscustomobject]@{}
     }
